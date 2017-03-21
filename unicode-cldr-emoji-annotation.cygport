@@ -1,0 +1,12 @@
+NAME="unicode-cldr-emoji-annotation"
+VERSION=30.0.3
+RELEASE=1
+CATEGORY="Text"
+SUMMARY="Unicode CLDR emoji annotations"
+DESCRIPTION="This provides the emoji annotation files by language from the
+Unicode Common Locale Data Repository."
+HOMEPAGE="https://github.com/fujiwarat/cldr-emoji-annotation"
+SRC_URI="${HOMEPAGE}/archive/${VERSION}_2/${NAME#unicode-}-${VERSION}_2.tar.gz"
+SRC_DIR="${NAME#unicode-}-${VERSION}_2"
+
+ARCH=noarch
